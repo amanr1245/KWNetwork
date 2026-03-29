@@ -116,6 +116,7 @@ def scrape():
             "address": details.get("eventAddress"),
             "description": strip_html(details.get("eventDescription", "")),
             "image_url": image_url,
+            "event_url": details.get("eventURL"),
         })
 
         time.sleep(0.15)  # be polite
@@ -126,7 +127,7 @@ def scrape():
 
     # Save CSV
     fields = ["event_id", "event_name", "club_name", "category", "date",
-              "start_time", "end_time", "address", "description", "image_url"]
+              "start_time", "end_time", "address", "description", "image_url", "event_url"]
     with open(OUT_DIR / "nest.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()

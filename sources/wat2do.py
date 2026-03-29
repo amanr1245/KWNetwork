@@ -120,6 +120,7 @@ def scrape():
             "school": ev.get("school"),
             "club_type": ev.get("club_type"),
             "ig_handle": ev.get("ig_handle"),
+            "event_url": f"https://wat2do.ca/events/{event_id}",
             "source_url": ev.get("source_url"),
         })
 
@@ -134,7 +135,7 @@ def scrape():
         "event_id", "title", "club_name", "categories",
         "start_time", "end_time", "location", "price",
         "food", "registration_required", "status",
-        "description", "image_url", "school", "club_type", "ig_handle", "source_url",
+        "description", "image_url", "school", "club_type", "ig_handle", "event_url", "source_url",
     ]
     with open(OUT_DIR / "wat2do.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
