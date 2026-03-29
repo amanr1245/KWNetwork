@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import Hero from "@/components/Hero";
 import FilterBar from "@/components/FilterBar";
 import EventCard from "@/components/EventCard";
@@ -8,26 +8,30 @@ import SourceCarousel from "@/components/SourceCarousel";
 import Footer from "@/components/Footer";
 import EventModal from "@/components/EventModal";
 import { Event } from "@/types";
+import { getNormalizedEvents } from "@/lib/events";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+  const [events, setEvents] = useState<Event[]>([]);
 
-  // This will be replaced by actual data fetching logic soon
-  const events: Event[] = [];
+  useEffect(() => {
+    // Load and normalize events
+    const data = getNormalizedEvents();
+    setEvents(data);
+  }, []);
 
   const filteredEvents = useMemo(() => {
     return events.filter((event) => {
-...
-
+      // Filter by tag/category
       const matchesFilter = activeFilter === "All" || 
         (activeFilter === "Free" && event.is_free) ||
         (activeFilter === "UW" && event.affiliation === "uw") ||
         (activeFilter === "Laurier" && event.affiliation === "laurier") ||
         (activeFilter === "Today" && new Date(event.date).toDateString() === new Date().toDateString()) ||
-        event.tags.includes(activeFilter);
+        event.tags.some(tag => tag.includes(activeFilter));
 
       // Filter by search query
       const matchesSearch = 
@@ -37,7 +41,7 @@ export default function Home() {
 
       return matchesFilter && matchesSearch;
     });
-  }, [activeFilter, searchQuery]);
+  }, [events, activeFilter, searchQuery]);
 
   return (
     <main className="min-h-screen bg-background text-foreground">
