@@ -9,11 +9,11 @@ export const SOURCES: Source[] = [
     url: "https://lu.ma"
   },
   {
-    id: "wat2go",
-    name: "wat2go",
+    id: "wat2do",
+    name: "wat2do",
     description: "The student-run guide to Waterloo student life.",
     logo_url: "https://wat2go.com/favicon.ico",
-    url: "https://wat2go.com"
+    url: "https://wat2do.ca"
   },
   {
     id: "uw",

@@ -43,6 +43,32 @@ export default function Home() {
     });
   }, [events, activeFilter, searchQuery]);
 
+  // Group events by date
+  const groupedEvents = useMemo(() => {
+    const groups: Record<string, Event[]> = {};
+    filteredEvents.forEach(event => {
+      const date = new Date(event.date).toDateString();
+      if (!groups[date]) groups[date] = [];
+      groups[date].push(event);
+    });
+    return groups;
+  }, [filteredEvents]);
+
+  const formatDateHeader = (dateStr: string) => {
+    const date = new Date(dateStr);
+    const today = new Date().toDateString();
+    const tomorrow = new Date(Date.now() + 86400000).toDateString();
+
+    if (dateStr === today) return "Today";
+    if (dateStr === tomorrow) return "Tomorrow";
+
+    return date.toLocaleDateString("en-US", { 
+      weekday: "long", 
+      month: "long", 
+      day: "numeric" 
+    });
+  };
+
   return (
     <main className="min-h-screen bg-background text-foreground">
       {/* Hero Section */}
@@ -59,35 +85,51 @@ export default function Home() {
           eventCount={filteredEvents.length}
         />
 
-        <div className="max-w-7xl mx-auto px-6">
-          <motion.div 
-            layout
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
-          >
-            <AnimatePresence mode="popLayout">
-              {filteredEvents.map((event) => (
-                <motion.div
-                  key={event.id}
+        <div className="max-w-7xl mx-auto px-6 relative">
+          {/* Scrollable Container */}
+          <div className="max-h-[1100px] overflow-y-auto pr-4 custom-scrollbar rounded-3xl pb-32">
+            {Object.entries(groupedEvents).map(([date, events]) => (
+              <div key={date} className="mb-12">
+                <div className="sticky top-0 z-20 bg-background/80 backdrop-blur-md py-4 mb-6 border-b border-white/5">
+                  <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-muted-foreground">
+                    {formatDateHeader(date)}
+                  </h3>
+                </div>
+                
+                <motion.div 
                   layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.3 }}
+                  className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                 >
-                  <EventCard
-                    event={event}
-                    onClick={setSelectedEvent}
-                  />
+                  <AnimatePresence mode="popLayout">
+                    {events.map((event) => (
+                      <motion.div
+                        key={event.id}
+                        layout
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        exit={{ opacity: 0, scale: 0.9 }}
+                        transition={{ duration: 0.3 }}
+                      >
+                        <EventCard
+                          event={event}
+                          onClick={setSelectedEvent}
+                        />
+                      </motion.div>
+                    ))}
+                  </AnimatePresence>
                 </motion.div>
-              ))}
-            </AnimatePresence>
-          </motion.div>
+              </div>
+            ))}
 
-          {filteredEvents.length === 0 && (
-            <div className="py-24 text-center">
-              <p className="text-xl text-muted-foreground">No events found matching this filter.</p>
-            </div>
-          )}
+            {filteredEvents.length === 0 && (
+              <div className="py-24 text-center">
+                <p className="text-xl text-muted-foreground">No events found matching this filter.</p>
+              </div>
+            )}
+          </div>
+
+          {/* Bottom Fade Gradient */}
+          <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent pointer-events-none z-20" />
         </div>
       </section>
 

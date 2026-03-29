@@ -1,4 +1,4 @@
-export type SourceType = "luma" | "wat2go" | "uw" | "laurier" | "eventbrite";
+export type SourceType = "luma" | "wat2do" | "uw" | "laurier" | "eventbrite";
 
 export interface Event {
   id: string;

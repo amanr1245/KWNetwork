@@ -21,12 +21,12 @@ export function getNormalizedEvents(): Event[] {
     date: parseDate(ev.start_time),
     location: ev.location || "Unknown Location",
     image_url: `https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&q=80&w=800`, // Placeholder
-    source: "wat2go" as SourceType, // we map wat2do to wat2go source id
+    source: "wat2do" as SourceType,
     source_url: ev.source_url || "https://wat2do.ca",
     original_url: ev.source_url || "https://wat2do.ca",
     tags: ev.categories ? ev.categories.split(", ") : ["Social"],
     is_free: ev.price === 0 || !ev.price,
-    affiliation: ev.school?.toLowerCase().includes("waterloo") ? "uw" : "laurier"
+    affiliation: "uw" // wat2do is primarily UW
   }));
 
   const normalizedNest: Event[] = (eventsNest as any[]).map((ev) => ({
@@ -36,11 +36,11 @@ export function getNormalizedEvents(): Event[] {
     date: parseDate(ev.start_time),
     location: ev.address || "Unknown Location",
     image_url: `https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800`, // Placeholder
-    source: "laurier" as SourceType, // nest is primarily laurier
+    source: "laurier" as SourceType,
     source_url: `https://campus.hellorubric.com/event-details?eid=${ev.event_id}`,
     original_url: `https://campus.hellorubric.com/event-details?eid=${ev.event_id}`,
     tags: ev.category ? [ev.category] : ["Campus"],
-    is_free: true, // mostly free campus events
+    is_free: true,
     affiliation: "laurier"
   }));
 
