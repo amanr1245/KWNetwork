@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="py-12 border-t border-white/5 bg-background">
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex flex-col items-center md:items-start gap-4">
-          <div className="text-xl font-bold tracking-tighter">KWNetwork</div>
+          <div className="text-xl font-bold tracking-tighter">KW-Network</div>
           <p className="text-sm text-muted-foreground">
             Everything happening in KW. Built by students, for students.
           </p>

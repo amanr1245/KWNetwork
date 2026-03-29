@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "KWNetwork | Everything happening in KW.",
-  description: "Events from Luma, wat2go, UW, Laurier and more — all in one place.",
+  description: "Events from Luma, UW, Laurier and more - all in one place.",
 };
 
 export default function RootLayout({

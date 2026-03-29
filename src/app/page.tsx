@@ -23,6 +23,7 @@ export default function Home() {
         (activeFilter === "Free" && event.is_free) ||
         (activeFilter === "UW" && event.affiliation === "uw") ||
         (activeFilter === "Laurier" && event.affiliation === "laurier") ||
+        (activeFilter === "Today" && new Date(event.date).toDateString() === new Date().toDateString()) ||
         event.tags.includes(activeFilter);
 
       // Filter by search query

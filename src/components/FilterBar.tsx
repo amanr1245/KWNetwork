@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
-const FILTERS = ["All", "This Weekend", "Free", "UW", "Laurier", "Arts", "Sports", "Social", "Academic"];
+const FILTERS = ["All", "Today", "This Weekend", "Free", "UW", "Laurier", "Arts", "Sports", "Social", "Academic"];
 
 interface FilterBarProps {
   activeFilter: string;
