@@ -1,0 +1,38 @@
+[
+  {
+    "event_id": "15514593853513",
+    "event_name": "BU121 SOS Final Review Session April 6th 7:30-10:30pm",
+    "club_name": "Lazaridis Students' Society",
+    "product_type": "Event Ticket",
+    "tags": "event ticket",
+    "variants": null,
+    "price": "CAD 15.00",
+    "available": true,
+    "description": "Fill out this form AFTER you buy your ticket:https://docs.google.com/forms/d/e/1FAIpQLSdMNWLLeoXf3nJi_ZH47OFifxhqMdgq2hGma27TYNS-0hrcJw/viewform?usp=header",
+    "image_url": "https://cdn.shopify.com/s/files/1/1367/1309/files/image_720.png?v=1774738661"
+  },
+  {
+    "event_id": "15514593820745",
+    "event_name": "BU121 SOS Final Review Session April 7th 7:30-10:30pm",
+    "club_name": "Lazaridis Students' Society",
+    "product_type": "Event Ticket",
+    "tags": "event ticket",
+    "variants": null,
+    "price": "CAD 15.00",
+    "available": true,
+    "description": "Fill out this form AFTER you buy your ticket:https://docs.google.com/forms/d/e/1FAIpQLSdMNWLLeoXf3nJi_ZH47OFifxhqMdgq2hGma27TYNS-0hrcJw/viewform?usp=header",
+    "image_url": "https://cdn.shopify.com/s/files/1/1367/1309/files/image_720_5693a092-9e10-465c-af99-5fa34c67454e.png?v=1774744765"
+  },
+  {
+    "event_id": "15498180395081",
+    "event_name": "Climb For Climate Ticket",
+    "club_name": "Lazaridis Students' Society",
+    "product_type": "Event Ticket",
+    "tags": "event ticket",
+    "variants": "Individual Tickets",
+    "price": "CAD 11.00",
+    "available": true,
+    "description": "Sustainability in Business Laurier for Climb for Climate, is an exciting evening of indoor rock climbing at Grand River Rocks that brings together students who care about sustainability, community, and climate action. Date: March 26th 2025.",
+    "image_url": "https://cdn.shopify.com/s/files/1/1367/1309/files/MainLogoIcon_WhiteBG_-SustainabilityinBusinessLaurierPresidents.png?v=1767982674"
+  }
+]
