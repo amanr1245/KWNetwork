@@ -40,7 +40,7 @@ export default function SourceCarousel() {
             }}
             className="flex gap-6 pr-6 py-4"
           >
-            {sources.map((source, idx) => (
+            {sourcesList.map((source, idx) => (
               <div
                 key={`${source.id}-${idx}`}
                 className="w-[320px] flex-shrink-0 p-8 rounded-[32px] bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-white/10 transition-all duration-500 group-hover:[animation-play-state:paused]"
