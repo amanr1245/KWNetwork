@@ -1,9 +1,12 @@
 import json
 import csv
+from pathlib import Path
 import urllib.request
 import urllib.parse
 from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
+
+OUT_DIR = Path(__file__).parent.parent / "src" / "events"
 
 BASE = "https://wusa.ca/wp-json/tribe/events/v1/events"
 HEADERS = {
@@ -79,6 +82,9 @@ def parse_event(ev: dict) -> dict:
     start = ev.get("start_date", "")
     end = ev.get("end_date", "")
 
+    image = ev.get("image") or {}
+    image_url = image.get("url") if isinstance(image, dict) else None
+
     return {
         "event_id": ev.get("id"),
         "title": strip_html(ev.get("title", "")),
@@ -94,6 +100,7 @@ def parse_event(ev: dict) -> dict:
         "cost": ev.get("cost") or None,
         "is_virtual": ev.get("is_virtual"),
         "description": strip_html(ev.get("description", "")),
+        "image_url": image_url,
         "url": ev.get("url"),
     }
 
@@ -107,20 +114,20 @@ def scrape():
     raw = fetch_events(start_date, end_date)
     records = [parse_event(ev) for ev in raw]
 
-    with open("events_wusa.json", "w", encoding="utf-8") as f:
+    with open(OUT_DIR / "wusa.json", "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
 
     fields = [
         "event_id", "title", "organizer", "organizer_email", "categories", "tags",
         "start_date", "end_date", "timezone", "all_day",
-        "venue", "cost", "is_virtual", "description", "url",
+        "venue", "cost", "is_virtual", "description", "image_url", "url",
     ]
-    with open("events_wusa.csv", "w", newline="", encoding="utf-8") as f:
+    with open(OUT_DIR / "wusa.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(records)
 
-    print(f"\nDone — {len(records)} events saved to events_wusa.json and events_wusa.csv")
+    print(f"\nDone — {len(records)} events saved to src/events/wusa.json and wusa.csv")
 
 
 if __name__ == "__main__":

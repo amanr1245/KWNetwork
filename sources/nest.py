@@ -3,8 +3,11 @@ import csv
 import re
 import time
 from html.parser import HTMLParser
+from pathlib import Path
 import urllib.request
 import urllib.parse
+
+OUT_DIR = Path(__file__).parent.parent / "src" / "events"
 
 API_URL = "https://api.hellorubric.com"
 SEARCH_REFERER = "https://campus.hellorubric.com/search?country=CA&state=Ontario&type=events&universityid=280&iframe=true&showall=true"
@@ -96,6 +99,12 @@ def scrape():
             print(f"    Warning: could not fetch details ({e})")
             details = {}
 
+        image_url = (
+            details.get("bannerImageURL")
+            if details.get("hasBannerImage")
+            else None
+        ) or item.get("image") or None
+
         events.append({
             "event_id": event_id,
             "event_name": details.get("eventName") or item.get("title"),
@@ -106,23 +115,24 @@ def scrape():
             "end_time": details.get("eventEndTime"),
             "address": details.get("eventAddress"),
             "description": strip_html(details.get("eventDescription", "")),
+            "image_url": image_url,
         })
 
         time.sleep(0.15)  # be polite
 
     # Save JSON
-    with open("events.json", "w", encoding="utf-8") as f:
+    with open(OUT_DIR / "nest.json", "w", encoding="utf-8") as f:
         json.dump(events, f, indent=2, ensure_ascii=False)
 
     # Save CSV
     fields = ["event_id", "event_name", "club_name", "category", "date",
-              "start_time", "end_time", "address", "description"]
-    with open("events.csv", "w", newline="", encoding="utf-8") as f:
+              "start_time", "end_time", "address", "description", "image_url"]
+    with open(OUT_DIR / "nest.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(events)
 
-    print(f"\nDone — {len(events)} events saved to events.json and events.csv")
+    print(f"\nDone — {len(events)} events saved to src/events/nest.json and nest.csv")
 
 
 if __name__ == "__main__":

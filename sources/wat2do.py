@@ -1,9 +1,12 @@
 import json
 import csv
 import time
+from pathlib import Path
 import urllib.request
 import urllib.parse
 from datetime import datetime, timezone
+
+OUT_DIR = Path(__file__).parent.parent / "src" / "events"
 
 BASE = "https://api.wat2do.ca/api"
 HEADERS = {
@@ -113,6 +116,7 @@ def scrape():
             "registration_required": ev.get("registration"),
             "status": status,
             "description": ev.get("description"),
+            "image_url": ev.get("source_image_url"),
             "school": ev.get("school"),
             "club_type": ev.get("club_type"),
             "ig_handle": ev.get("ig_handle"),
@@ -122,7 +126,7 @@ def scrape():
         time.sleep(0.1)
 
     # Save JSON
-    with open("events_wat2do.json", "w", encoding="utf-8") as f:
+    with open(OUT_DIR / "wat2do.json", "w", encoding="utf-8") as f:
         json.dump(records, f, indent=2, ensure_ascii=False)
 
     # Save CSV
@@ -130,14 +134,14 @@ def scrape():
         "event_id", "title", "club_name", "categories",
         "start_time", "end_time", "location", "price",
         "food", "registration_required", "status",
-        "description", "school", "club_type", "ig_handle", "source_url",
+        "description", "image_url", "school", "club_type", "ig_handle", "source_url",
     ]
-    with open("events_wat2do.csv", "w", newline="", encoding="utf-8") as f:
+    with open(OUT_DIR / "wat2do.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(records)
 
-    print(f"\nDone — {len(records)} events saved to events_wat2do.json and events_wat2do.csv")
+    print(f"\nDone — {len(records)} events saved to src/events/wat2do.json and wat2do.csv")
 
 
 if __name__ == "__main__":
