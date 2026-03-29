@@ -7,7 +7,6 @@ import EventCard from "@/components/EventCard";
 import SourceCarousel from "@/components/SourceCarousel";
 import Footer from "@/components/Footer";
 import EventModal from "@/components/EventModal";
-import { MOCK_EVENTS } from "@/lib/mock-data";
 import { Event } from "@/types";
 import { motion, AnimatePresence } from "framer-motion";
 
@@ -16,9 +15,13 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
 
+  // This will be replaced by actual data fetching logic soon
+  const events: Event[] = [];
+
   const filteredEvents = useMemo(() => {
-    return MOCK_EVENTS.filter((event) => {
-      // Filter by tag/category
+    return events.filter((event) => {
+...
+
       const matchesFilter = activeFilter === "All" || 
         (activeFilter === "Free" && event.is_free) ||
         (activeFilter === "UW" && event.affiliation === "uw") ||

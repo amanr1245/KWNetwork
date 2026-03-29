@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import { Source } from "@/types";
-import { MOCK_SOURCES } from "@/lib/mock-data";
+import { SOURCES } from "@/lib/sources";
 import { ExternalLink, ArrowRight } from "lucide-react";
 
 export default function SourceCarousel() {
   // Duplicate for seamless loop
-  const sources = [...MOCK_SOURCES, ...MOCK_SOURCES];
+  const sourcesList = [...SOURCES, ...SOURCES];
 
   return (
     <section className="py-32 border-t border-white/5 overflow-hidden">
