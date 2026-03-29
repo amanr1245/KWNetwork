@@ -16,11 +16,11 @@ export const SOURCES: Source[] = [
     url: "https://wat2do.ca"
   },
   {
-    id: "uw",
-    name: "UW Events",
-    description: "Official event calendar for the University of Waterloo.",
-    logo_url: "https://uwaterloo.ca/favicon.ico",
-    url: "https://uwaterloo.ca/events"
+    id: "wusa",
+    name: "WUSA",
+    description: "Waterloo Undergraduate Student Association events.",
+    logo_url: "https://wusa.ca/wp-content/themes/wusa/assets/images/favicon.ico",
+    url: "https://wusa.ca/events"
   },
   {
     id: "laurier",
@@ -28,6 +28,13 @@ export const SOURCES: Source[] = [
     description: "Official event calendar for Wilfrid Laurier University.",
     logo_url: "https://wlu.ca/favicon.ico",
     url: "https://students.wlu.ca/events"
+  },
+  {
+    id: "lazsoc",
+    name: "LazSoc",
+    description: "Lazaridis Students' Society events and tickets.",
+    logo_url: "https://lazsoc.ca/favicon.ico",
+    url: "https://lazsoc.ca"
   },
   {
     id: "eventbrite",

@@ -16,6 +16,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwdebate",
+    "event_url": "https://wat2do.ca/events/4920",
     "source_url": "https://www.instagram.com/p/DV_aGQgDU9F/"
   },
   {
@@ -35,6 +36,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwafsa",
+    "event_url": "https://wat2do.ca/events/4432",
     "source_url": "https://www.instagram.com/p/DVMY3y4icry/"
   },
   {
@@ -54,26 +56,8 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwstrengthclub",
+    "event_url": "https://wat2do.ca/events/5007",
     "source_url": "https://www.instagram.com/p/DWFImCHCUHa/"
-  },
-  {
-    "event_id": 4254,
-    "title": "Ground FX 2026",
-    "club_name": "Breakers,UW",
-    "categories": "Creative Arts, Social & Games",
-    "start_time": "Sun, 29 Mar 2026 04:00 PM UTC",
-    "end_time": null,
-    "location": "SLC Lower Atrium",
-    "price": 10.0,
-    "food": null,
-    "registration_required": false,
-    "status": "CONFIRMED",
-    "description": "CALLING ALL BREAKERS 🚨🚨 WE ARE PLEASED\nTO ANNOUNCE GROUND FX 2026!\n ------------------------------------------------------------------------------ \nDetails: \n\n🕺 3V3 BREAKING BATTLE \n💰 CASH PRIZE: 1ST: $400 2ND: $250\n🎫 $10/CREW MEMBER ENTRY \n📍 UNIVERSITY OF WATERLOO, STUDENT LIFE CENTRE, WATERLOO, ONTARIO \n\nFEATURING: \n\n- The return of the iconic GFX 3v3 breaking battle (main event) \n- Performances from University of Waterloo Dance crews\n- @kybaliontafiya Advanced breaking workshop ($10 ENTRY) \n\nA day of fun, dance, and community!\n\n ARTISTS:\n- MC SWITCH B (@switchbfam) \n- DJ M4RS (@marsbtx)\n- WORKSHOP HOST @kybaliontafiya \n- JUDGES (3x) Take a guess...\n\n*Funding for this event is generously provided by the @yourwusa Student Life Endowment Fund.\n\n*Funding for the event generously provided by the Arts Endowment Fund.\n\n ------------------------------------------------------------------------------ \n\nFor more information, please head over to the event page on Facebook:\n\nhttps://facebook.com/events/s/ground-fx-2026-breaking-compet/2760084247678794/\n\n#waterloo #dance #breaking #streetdance #competition",
-    "image_url": "https://bug-free-octo-spork.s3.us-east-2.amazonaws.com/events/8f987f7d-9a03-4655-bf2b-3c5614028c7e.jpg",
-    "school": "University of Waterloo",
-    "club_type": "WUSA",
-    "ig_handle": "uw_breakers",
-    "source_url": "https://www.instagram.com/p/DUl6_9tEd24/"
   },
   {
     "event_id": 5078,
@@ -92,7 +76,28 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "wlooclimbingclub",
+    "event_url": "https://wat2do.ca/events/5078",
     "source_url": "https://www.instagram.com/p/DWPWujdD_27/"
+  },
+  {
+    "event_id": 4254,
+    "title": "Ground FX 2026",
+    "club_name": "Breakers,UW",
+    "categories": "Creative Arts, Social & Games",
+    "start_time": "Sun, 29 Mar 2026 05:00 PM UTC",
+    "end_time": "Sun, 29 Mar 2026 06:00 PM UTC",
+    "location": "SLC Lower Atrium",
+    "price": 10.0,
+    "food": null,
+    "registration_required": false,
+    "status": "CONFIRMED",
+    "description": "CALLING ALL BREAKERS 🚨🚨 WE ARE PLEASED\nTO ANNOUNCE GROUND FX 2026!\n ------------------------------------------------------------------------------ \nDetails: \n\n🕺 3V3 BREAKING BATTLE \n💰 CASH PRIZE: 1ST: $400 2ND: $250\n🎫 $10/CREW MEMBER ENTRY \n📍 UNIVERSITY OF WATERLOO, STUDENT LIFE CENTRE, WATERLOO, ONTARIO \n\nFEATURING: \n\n- The return of the iconic GFX 3v3 breaking battle (main event) \n- Performances from University of Waterloo Dance crews\n- @kybaliontafiya Advanced breaking workshop ($10 ENTRY) \n\nA day of fun, dance, and community!\n\n ARTISTS:\n- MC SWITCH B (@switchbfam) \n- DJ M4RS (@marsbtx)\n- WORKSHOP HOST @kybaliontafiya \n- JUDGES (3x) Take a guess...\n\n*Funding for this event is generously provided by the @yourwusa Student Life Endowment Fund.\n\n*Funding for the event generously provided by the Arts Endowment Fund.\n\n ------------------------------------------------------------------------------ \n\nFor more information, please head over to the event page on Facebook:\n\nhttps://facebook.com/events/s/ground-fx-2026-breaking-compet/2760084247678794/\n\n#waterloo #dance #breaking #streetdance #competition",
+    "image_url": "https://bug-free-octo-spork.s3.us-east-2.amazonaws.com/events/8f987f7d-9a03-4655-bf2b-3c5614028c7e.jpg",
+    "school": "University of Waterloo",
+    "club_type": "WUSA",
+    "ig_handle": "uw_breakers",
+    "event_url": "https://wat2do.ca/events/4254",
+    "source_url": "https://www.instagram.com/p/DUl6_9tEd24/"
   },
   {
     "event_id": 5113,
@@ -111,6 +116,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwhvz",
+    "event_url": "https://wat2do.ca/events/5113",
     "source_url": "https://www.instagram.com/p/DWT21iCjsii/"
   },
   {
@@ -130,6 +136,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "hillelwaterloolaurier",
+    "event_url": "https://wat2do.ca/events/4610",
     "source_url": "https://www.instagram.com/p/DVeNZDhEav_/"
   },
   {
@@ -149,6 +156,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_breakers",
+    "event_url": "https://wat2do.ca/events/5035",
     "source_url": "https://www.instagram.com/p/DWHsh1tkcw1/"
   },
   {
@@ -168,6 +176,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwaterloottc",
+    "event_url": "https://wat2do.ca/events/3617",
     "source_url": "https://www.instagram.com/p/DTbG2WfkZ9r/"
   },
   {
@@ -187,6 +196,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwaterloottc",
+    "event_url": "https://wat2do.ca/events/4845",
     "source_url": "https://www.instagram.com/p/DV4D8s7gbNC/"
   },
   {
@@ -206,6 +216,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwballroom",
+    "event_url": "https://wat2do.ca/events/3702",
     "source_url": "https://www.instagram.com/p/DTk-hETjhak/"
   },
   {
@@ -225,6 +236,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_animusic",
+    "event_url": "https://wat2do.ca/events/5024",
     "source_url": "https://www.instagram.com/p/DWF1UapDHHC/"
   },
   {
@@ -244,6 +256,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "wloo.outersclub",
+    "event_url": "https://wat2do.ca/events/4863",
     "source_url": "https://www.instagram.com/p/DV7L9CPjVJ_/"
   },
   {
@@ -263,6 +276,7 @@
     "school": "University of Waterloo",
     "club_type": null,
     "ig_handle": "claudeuwaterloo",
+    "event_url": "https://wat2do.ca/events/5169",
     "source_url": "https://www.instagram.com/p/DWcC-hZiRkK/"
   },
   {
@@ -282,6 +296,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwaterloottc",
+    "event_url": "https://wat2do.ca/events/4937",
     "source_url": "https://www.instagram.com/p/DV_8HQEASwv/"
   },
   {
@@ -301,6 +316,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw_sofa",
+    "event_url": "https://wat2do.ca/events/4988",
     "source_url": "https://www.instagram.com/p/DWDIJCkDS8L/"
   },
   {
@@ -320,6 +336,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "wloo.dboat",
+    "event_url": "https://wat2do.ca/events/5146",
     "source_url": "https://www.instagram.com/p/DWX4karjFc2/"
   },
   {
@@ -339,6 +356,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwsewciety",
+    "event_url": "https://wat2do.ca/events/5106",
     "source_url": "https://www.instagram.com/p/DWSP_wKGjFO/"
   },
   {
@@ -358,6 +376,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwcookingclub",
+    "event_url": "https://wat2do.ca/events/5145",
     "source_url": "https://www.instagram.com/p/DWXjghkkVKX/"
   },
   {
@@ -377,6 +396,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwimprovisation",
+    "event_url": "https://wat2do.ca/events/3645",
     "source_url": "https://www.instagram.com/p/DTejjSDjnIX/"
   },
   {
@@ -396,6 +416,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw_psychsoc",
+    "event_url": "https://wat2do.ca/events/5075",
     "source_url": "https://www.instagram.com/p/DWPAx8CjkM7/"
   },
   {
@@ -415,6 +436,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwengiqueers",
+    "event_url": "https://wat2do.ca/events/5092",
     "source_url": "https://www.instagram.com/p/DWRWeajjkEX/"
   },
   {
@@ -434,6 +456,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwmathsoc",
+    "event_url": "https://wat2do.ca/events/5148",
     "source_url": "https://www.instagram.com/p/DWX6GvggB24/"
   },
   {
@@ -453,6 +476,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwclecwaterloo",
+    "event_url": "https://wat2do.ca/events/5155",
     "source_url": "https://www.instagram.com/p/DWZmvCJD0SP/"
   },
   {
@@ -472,6 +496,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "waterboo_uw",
+    "event_url": "https://wat2do.ca/events/5173",
     "source_url": "https://www.instagram.com/p/DWeHkaYjlo3/"
   },
   {
@@ -491,6 +516,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "doubledegreeclub",
+    "event_url": "https://wat2do.ca/events/5123",
     "source_url": "https://www.instagram.com/p/DWU1DL6Dqyb/"
   },
   {
@@ -510,6 +536,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwcomedy",
+    "event_url": "https://wat2do.ca/events/4841",
     "source_url": "https://www.instagram.com/p/DV3z_jDDfzH/"
   },
   {
@@ -529,6 +556,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwvfp",
+    "event_url": "https://wat2do.ca/events/4735",
     "source_url": "https://www.instagram.com/p/DVtl-hvkY7Q/"
   },
   {
@@ -548,6 +576,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwaterloodsc",
+    "event_url": "https://wat2do.ca/events/5152",
     "source_url": "https://www.instagram.com/p/DWZcojeASGb/"
   },
   {
@@ -567,6 +596,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwgeospatial",
+    "event_url": "https://wat2do.ca/events/4932",
     "source_url": "https://www.instagram.com/p/DV_wDjmjpF9/"
   },
   {
@@ -586,6 +616,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwaterloowie",
+    "event_url": "https://wat2do.ca/events/5093",
     "source_url": "https://www.instagram.com/p/DWRW3l-kRN9/"
   },
   {
@@ -605,6 +636,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "nsbe.waterloo",
+    "event_url": "https://wat2do.ca/events/5046",
     "source_url": "https://www.instagram.com/p/DWJuoMkDeu2/"
   },
   {
@@ -624,6 +656,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwafsa",
+    "event_url": "https://wat2do.ca/events/4813",
     "source_url": "https://www.instagram.com/p/DVz3epwjmHL/"
   },
   {
@@ -643,6 +676,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "cocawaterloolaurier",
+    "event_url": "https://wat2do.ca/events/4833",
     "source_url": "https://www.instagram.com/p/DWNXxRSFYrC/"
   },
   {
@@ -662,6 +696,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw.entomology",
+    "event_url": "https://wat2do.ca/events/5011",
     "source_url": "https://www.instagram.com/p/DWFZdGzjeEn/"
   },
   {
@@ -681,6 +716,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_osp",
+    "event_url": "https://wat2do.ca/events/5172",
     "source_url": "https://www.instagram.com/p/DWcpx63gDli/"
   },
   {
@@ -700,6 +736,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "watsam_uw",
+    "event_url": "https://wat2do.ca/events/5112",
     "source_url": "https://www.instagram.com/p/DWTxGTylVwX/"
   },
   {
@@ -719,6 +756,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwcampuscompost",
+    "event_url": "https://wat2do.ca/events/5128",
     "source_url": "https://www.instagram.com/p/DWWfpjWFLW2/"
   },
   {
@@ -738,6 +776,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_pokemon_club",
+    "event_url": "https://wat2do.ca/events/5167",
     "source_url": "https://www.instagram.com/p/DWblzo1ERev/"
   },
   {
@@ -757,6 +796,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "waterloolaurierssa",
+    "event_url": "https://wat2do.ca/events/5111",
     "source_url": "https://www.instagram.com/p/DWXRFQLj7_x/"
   },
   {
@@ -776,6 +816,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwconcertbandclub",
+    "event_url": "https://wat2do.ca/events/3637",
     "source_url": "https://www.instagram.com/p/DTdrP-4j9E-/"
   },
   {
@@ -795,6 +836,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "yourwusa",
+    "event_url": "https://wat2do.ca/events/4738",
     "source_url": "https://www.instagram.com/p/DVtpPZFiSDc/"
   },
   {
@@ -814,6 +856,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwaterloobhangra",
+    "event_url": "https://wat2do.ca/events/3829",
     "source_url": "https://www.instagram.com/p/DTyp7O9D9O1/"
   },
   {
@@ -833,6 +876,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwhiphop",
+    "event_url": "https://wat2do.ca/events/5162",
     "source_url": "https://www.instagram.com/p/DWaD_sWkazR/"
   },
   {
@@ -852,6 +896,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "yourwusa",
+    "event_url": "https://wat2do.ca/events/5132",
     "source_url": "https://www.instagram.com/p/DWW0EkiD1xd/"
   },
   {
@@ -871,6 +916,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "iicuwaterloo",
+    "event_url": "https://wat2do.ca/events/3948",
     "source_url": "https://www.instagram.com/p/DUB5wt4gk_q/"
   },
   {
@@ -890,6 +936,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwcerclefrancais",
+    "event_url": "https://wat2do.ca/events/4979",
     "source_url": "https://www.instagram.com/p/DWChfC8FDdP/"
   },
   {
@@ -909,6 +956,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwcsclub",
+    "event_url": "https://wat2do.ca/events/5082",
     "source_url": "https://www.instagram.com/p/DWPl-Hdjjuv/"
   },
   {
@@ -928,6 +976,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwaterlooacs",
+    "event_url": "https://wat2do.ca/events/5142",
     "source_url": "https://www.instagram.com/p/DWXcabxERTQ/"
   },
   {
@@ -947,6 +996,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwclecwaterloo",
+    "event_url": "https://wat2do.ca/events/5156",
     "source_url": "https://www.instagram.com/p/DWZmZZsDwed/"
   },
   {
@@ -966,6 +1016,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwengsoc",
+    "event_url": "https://wat2do.ca/events/5158",
     "source_url": "https://www.instagram.com/p/DWZnO7NlEfQ/"
   },
   {
@@ -985,6 +1036,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "waterloochaptergmb",
+    "event_url": "https://wat2do.ca/events/5165",
     "source_url": "https://www.instagram.com/p/DWaXXqvjJ_4/"
   },
   {
@@ -1004,7 +1056,28 @@
     "school": "University of Waterloo",
     "club_type": null,
     "ig_handle": "wlooquantclub",
+    "event_url": "https://wat2do.ca/events/5170",
     "source_url": "https://www.instagram.com/p/DWcK3pQIO8v/"
+  },
+  {
+    "event_id": 5174,
+    "title": "Totes And Stethoscopes",
+    "club_name": "UW Pre-Med Club",
+    "categories": "Creative Arts, Social & Games",
+    "start_time": "Wed, 01 Apr 2026 10:00 PM UTC",
+    "end_time": "Thu, 02 Apr 2026 12:00 AM UTC",
+    "location": "STC 1012",
+    "price": null,
+    "food": "Snacks",
+    "registration_required": true,
+    "status": "CONFIRMED",
+    "description": "De-stress before finals with us 🩺🎨✨\nJoin us for a chill night of painting your own tote bag, watching House MD, and enjoying some snacks on us 🍿\n\n🗓️ April 1\n⏰ 6:00–8:00 PM\n📍 STC 1012\n\nsign up with the link in our bio! 💙",
+    "image_url": "https://bug-free-octo-spork.s3.us-east-2.amazonaws.com/events/8d9c2c5b-be79-4cde-af2d-681c30e04de3.jpg",
+    "school": "University of Waterloo",
+    "club_type": "WUSA",
+    "ig_handle": "uwaterloopremed",
+    "event_url": "https://wat2do.ca/events/5174",
+    "source_url": "https://www.instagram.com/p/DWea6t-EaS2/"
   },
   {
     "event_id": 4686,
@@ -1023,6 +1096,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "mns.soc",
+    "event_url": "https://wat2do.ca/events/4686",
     "source_url": "https://www.instagram.com/p/DVo2h9cDmk_/"
   },
   {
@@ -1042,6 +1116,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwcsa",
+    "event_url": "https://wat2do.ca/events/5079",
     "source_url": "https://www.instagram.com/p/DWPb8-yESQI/"
   },
   {
@@ -1061,6 +1136,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwtrgbookclub",
+    "event_url": "https://wat2do.ca/events/4288",
     "source_url": "https://www.instagram.com/p/DUtn28WEVWc/"
   },
   {
@@ -1080,6 +1156,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwacc",
+    "event_url": "https://wat2do.ca/events/4836",
     "source_url": "https://www.instagram.com/p/DV2MjaPkWoz/"
   },
   {
@@ -1099,6 +1176,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "watrox1017",
+    "event_url": "https://wat2do.ca/events/3800",
     "source_url": "https://www.instagram.com/p/DTv0yoQEpn9/"
   },
   {
@@ -1118,6 +1196,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "watrox1017",
+    "event_url": "https://wat2do.ca/events/5160",
     "source_url": "https://www.instagram.com/p/DWZzFCxDynw/"
   },
   {
@@ -1137,6 +1216,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "ahsum.waterloo",
+    "event_url": "https://wat2do.ca/events/5153",
     "source_url": "https://www.instagram.com/p/DWZdyDbCQjD/"
   },
   {
@@ -1156,6 +1236,7 @@
     "school": "University of Waterloo",
     "club_type": null,
     "ig_handle": "yourwusa",
+    "event_url": "https://wat2do.ca/events/4956",
     "source_url": "https://www.instagram.com/p/DWBs6QogKaa/"
   },
   {
@@ -1175,6 +1256,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "envwags",
+    "event_url": "https://wat2do.ca/events/5013",
     "source_url": "https://www.instagram.com/p/DWFeLnAiaXP/"
   },
   {
@@ -1194,6 +1276,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwerssa",
+    "event_url": "https://wat2do.ca/events/3946",
     "source_url": "https://www.instagram.com/p/DUB1qEbkolJ/"
   },
   {
@@ -1213,6 +1296,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw.cas",
+    "event_url": "https://wat2do.ca/events/5029",
     "source_url": "https://www.instagram.com/p/DWHC5fdkXz3/"
   },
   {
@@ -1232,6 +1316,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwgeoguessr",
+    "event_url": "https://wat2do.ca/events/5077",
     "source_url": "https://www.instagram.com/p/DWPVbeQkc3F/"
   },
   {
@@ -1251,6 +1336,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_ace",
+    "event_url": "https://wat2do.ca/events/3584",
     "source_url": "https://www.instagram.com/p/DTVkIeGjJCW/"
   },
   {
@@ -1270,6 +1356,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw.crafts4charity",
+    "event_url": "https://wat2do.ca/events/5094",
     "source_url": "https://www.instagram.com/p/DWRadZqji-9/"
   },
   {
@@ -1289,6 +1376,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "watrox1017",
+    "event_url": "https://wat2do.ca/events/5117",
     "source_url": "https://www.instagram.com/p/DWUMSEkDr1b/"
   },
   {
@@ -1308,6 +1396,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwcubingclub",
+    "event_url": "https://wat2do.ca/events/5159",
     "source_url": "https://www.instagram.com/p/DWZux41iZo7/"
   },
   {
@@ -1327,6 +1416,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "jamnetwork_uw",
+    "event_url": "https://wat2do.ca/events/5164",
     "source_url": "https://www.instagram.com/p/DWaV6UEDL3l/"
   },
   {
@@ -1346,6 +1436,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw.conservatives",
+    "event_url": "https://wat2do.ca/events/5171",
     "source_url": "https://www.instagram.com/p/DWcWXZdkRie/"
   },
   {
@@ -1365,6 +1456,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwquizbowl",
+    "event_url": "https://wat2do.ca/events/3544",
     "source_url": "https://www.instagram.com/p/DTRB7Szj-7a/"
   },
   {
@@ -1384,6 +1476,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw_ess",
+    "event_url": "https://wat2do.ca/events/4822",
     "source_url": "https://www.instagram.com/p/DV1jsyhk4rW/"
   },
   {
@@ -1403,6 +1496,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "akcse_uw",
+    "event_url": "https://wat2do.ca/events/5140",
     "source_url": "https://www.instagram.com/p/DWXWMsbjbzf/"
   },
   {
@@ -1422,6 +1516,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "knituw",
+    "event_url": "https://wat2do.ca/events/4016",
     "source_url": "https://www.instagram.com/p/DUIxT8vjcHq/"
   },
   {
@@ -1441,6 +1536,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "jamnetwork_uw",
+    "event_url": "https://wat2do.ca/events/5067",
     "source_url": "https://www.instagram.com/p/DWNBHoGACoL/"
   },
   {
@@ -1460,6 +1556,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "doubledegreeclub",
+    "event_url": "https://wat2do.ca/events/4888",
     "source_url": "https://www.instagram.com/p/DV844dnDiev/"
   },
   {
@@ -1479,6 +1576,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw_sofa",
+    "event_url": "https://wat2do.ca/events/5058",
     "source_url": "https://www.instagram.com/p/DWMN6TWle3g/"
   },
   {
@@ -1498,6 +1596,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "waterloolaurierssa",
+    "event_url": "https://wat2do.ca/events/4567",
     "source_url": "https://www.instagram.com/p/DVZwjnflFbB/"
   },
   {
@@ -1517,6 +1616,7 @@
     "school": "University of Waterloo",
     "club_type": "Athletics",
     "ig_handle": "uwaterloodance",
+    "event_url": "https://wat2do.ca/events/4577",
     "source_url": "https://www.instagram.com/p/DWcfPSeGHNj/"
   },
   {
@@ -1536,6 +1636,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "_uwasa",
+    "event_url": "https://wat2do.ca/events/5124",
     "source_url": "https://www.instagram.com/p/DWVHZFyifFg/"
   },
   {
@@ -1555,6 +1656,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwufurs",
+    "event_url": "https://wat2do.ca/events/5154",
     "source_url": "https://www.instagram.com/p/DWZjZ94Eefi/"
   },
   {
@@ -1574,6 +1676,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwafsa",
+    "event_url": "https://wat2do.ca/events/5086",
     "source_url": "https://www.instagram.com/p/DWP98D9FshB/"
   },
   {
@@ -1593,6 +1696,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "watrox1017",
+    "event_url": "https://wat2do.ca/events/4803",
     "source_url": "https://www.instagram.com/p/DVy2jLpkXli/"
   },
   {
@@ -1612,6 +1716,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwerssa",
+    "event_url": "https://wat2do.ca/events/5149",
     "source_url": "https://www.instagram.com/p/DWZJimkFDnq/"
   },
   {
@@ -1631,6 +1736,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uw.tsu",
+    "event_url": "https://wat2do.ca/events/4238",
     "source_url": "https://www.instagram.com/p/DV1dpJsgTSG/"
   },
   {
@@ -1650,7 +1756,28 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "p2cwaterloo",
+    "event_url": "https://wat2do.ca/events/4785",
     "source_url": "https://www.instagram.com/p/DVwlo2VEWaX/"
+  },
+  {
+    "event_id": 5175,
+    "title": "UWDC Chocolate Fundraiser Pickup",
+    "club_name": "Waterloo Dance Club",
+    "categories": "Sales & Fundraising",
+    "start_time": "Sun, 12 Apr 2026 06:00 PM UTC",
+    "end_time": "Sun, 12 Apr 2026 09:00 PM UTC",
+    "location": "Studio 1 at the Physical Activities Complex (PAC)",
+    "price": null,
+    "food": "Milk chocolate bars, chocolate covered almonds",
+    "registration_required": true,
+    "status": "CONFIRMED",
+    "description": "Need something to keep you going through exam season? Well, we have the perfect treat for you! 😋🍫 UWDC is hosting our first-ever Chocolate Fundraiser with World’s Finest Chocolate! From March 29th to April 10th, you can order some delectable chocolate starting at only $5! \n\nAny purchase goes a long way, with about 40% of all proceeds supporting our team! If your mouth is watering already, go to the link in our bio to fill out the order form and be sure to grab yours soon, as supplies are limited!\n\nAll chocolate orders will be ready for pickup on Sunday, April 12th, by Studio 1 at the Physical Activities Complex (PAC) on campus from 2:00 to 5:00 PM 📦\n\n#eatdance #uwdancecompany #waterloo #fundraising #explore",
+    "image_url": "https://bug-free-octo-spork.s3.us-east-2.amazonaws.com/events/62de44d4-9ba0-4700-8bd9-09935087f181.jpg",
+    "school": "University of Waterloo",
+    "club_type": "Athletics",
+    "ig_handle": "uwaterloodance",
+    "event_url": "https://wat2do.ca/events/5175",
+    "source_url": "https://www.instagram.com/p/DWebIZlEfqZ/"
   },
   {
     "event_id": 5133,
@@ -1669,6 +1796,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uwatna",
+    "event_url": "https://wat2do.ca/events/5133",
     "source_url": "https://www.instagram.com/p/DWW1VflDl35/"
   },
   {
@@ -1688,6 +1816,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw.psa",
+    "event_url": "https://wat2do.ca/events/5161",
     "source_url": "https://www.instagram.com/p/DWZ2fkqDD0p/"
   },
   {
@@ -1707,6 +1836,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "uw_aviation",
+    "event_url": "https://wat2do.ca/events/4082",
     "source_url": "https://www.instagram.com/p/DUSHHEmja86/"
   },
   {
@@ -1726,6 +1856,7 @@
     "school": "University of Waterloo",
     "club_type": "WUSA",
     "ig_handle": "slsa.uw",
+    "event_url": "https://wat2do.ca/events/4755",
     "source_url": "https://www.instagram.com/p/DVeq-i2kaR8/"
   },
   {
@@ -1745,6 +1876,7 @@
     "school": "University of Waterloo",
     "club_type": "Student Society",
     "ig_handle": "uwaterloowics",
+    "event_url": "https://wat2do.ca/events/4818",
     "source_url": "https://www.instagram.com/p/DV1Owm4jtrw/"
   }
 ]

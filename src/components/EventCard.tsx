@@ -21,12 +21,14 @@ const TAG_COLORS: Record<string, string> = {
 };
 
 export default function EventCard({ event, onClick }: EventCardProps) {
-  const sourceColors = {
+  const sourceColors: Record<string, string> = {
     luma: "bg-rose-500/20 text-rose-300 border-rose-500/30",
     wat2do: "bg-blue-500/20 text-blue-300 border-blue-500/30",
     uw: "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
     laurier: "bg-purple-500/20 text-purple-300 border-purple-500/30",
     eventbrite: "bg-orange-500/20 text-orange-300 border-orange-500/30",
+    wusa: "bg-teal-500/20 text-teal-300 border-teal-500/30",
+    lazsoc: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",
   };
 
   const getTagStyle = (tag: string) => {
